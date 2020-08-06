@@ -3,6 +3,11 @@ import java.util.Random;
 
 public class coin{
   public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Who are you?");
+    String string = scanner.next();
+    System.out.println("Hello," + string + "!");
+
     String[] sides = {"Heads", "Tails"};
     Random r = new Random();
     int hd = 0;
